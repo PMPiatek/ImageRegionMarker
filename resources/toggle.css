@@ -1,0 +1,44 @@
+#togglePointer {
+	-fx-graphic: url(pointer.png);
+	-fx-padding: 0px;
+}
+
+#togglePointer:selected {
+	-fx-graphic: url(pointer_pressed.png);
+}
+
+#toggleHand {
+	-fx-graphic: url(hand.png);
+	-fx-padding: 0px;
+}
+
+#toggleHand:selected {
+	-fx-graphic: url(hand_pressed.png);
+}
+
+#toggleRect {
+	-fx-graphic: url(rectangle.png);
+	-fx-padding: 0px;
+}
+
+#toggleRect:selected {
+	-fx-graphic: url(rectangle_pressed.png);
+}
+
+#toggleEllipse {
+	-fx-graphic: url(ellipse.png);
+	-fx-padding: 0px;
+}
+
+#toggleEllipse:selected {
+	-fx-graphic: url(ellipse_pressed.png);
+}
+
+#togglePolygon {
+	-fx-graphic: url(polygon.png);
+	-fx-padding: 0px;
+}
+
+#togglePolygon:selected {
+	-fx-graphic: url(polygon_pressed.png);
+}
